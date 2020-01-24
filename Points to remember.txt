@@ -1,0 +1,51 @@
+Flow of data's to be imported:
+User Profile --> Department --> Subjects -->Courses -> Student
+
+User Profile,
+id,userId,loginId,password,role,firstName,lastName,middleName,saluation
+1,201903001,201903001,201903001,Student,AAYUSHI ,JAIN," "," " 
+
+Point to remember while updating User profile data:
+1)We have to provide Id field if we want to update entire user_profile table values
+2)Please provide " ",if any field data is not available
+3)user id and Login Id values must be same values.In future i will remove Login Id value as it is an un-necessary filed.
+
+
+2) Department :
+We dont have department id column in models that's why we are using department Name
+Id field which is available in test data is the in-build django Id.It is useful to set or get department objects.
+
+3) Subjects:
+We have Generic Id and Department Name in Department test data.For subjects 
+mention department id(Deafult Id's which we provides in Id column of department test data) in Subjects'department column.
+
+Deprtemnt Test data:
+id,departmentName
+1,Computer Science 
+2,Electronics
+
+Subjects sample test data:
+id,department,name,semester
+1,1,Discrete Structures,1
+
+4)Courses:
+We have Generic Id and Subject Name in Subject test data.For Course 
+mention all subject id's(Deafult Id's which we provides in  id column ofsubject test data) in Subjects column.
+
+Provide multiple subjects like below 
+
+id,department,courseId,courseName,semester,subject
+1,1,CSH1,B.Sc.(H) Computer Science Sem-1,1,"1,2"
+
+5)Students Data:
+
+Point to remember while updating Student data:
+1)We have to provide Id field if we want to update entire student table values
+2)Please provide " ",if any field data is not available
+
+Teachers:
+Please provide subject id in subject column.
+
+Sample Test data for teacher:
+id,fname,lname,subject
+1,Arpita,Jha,1

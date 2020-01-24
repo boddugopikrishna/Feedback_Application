@@ -1,0 +1,16 @@
+Login :
+user Id : 108w1a0101
+password : boddu@143
+
+Update password :
+user Id : 108w1a0101
+password : boddu@143
+new password : boddu@123
+
+New credentials:
+user Id : 108w1a0101
+password : boddu@123
+
+--------------------------------------------
+After successful login :
+click on feedback button to submit Feedback

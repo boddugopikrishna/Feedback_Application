@@ -1,0 +1,12 @@
+Install Python latest version
+Install Virtual Environment 
+Open Command Prompt and traverse through the below path
+C:\Users\BODDU\Desktop\Django_projects\myenv\Scripts\activate.bat
+After successful :
+change directory to : C:\Users\BODDU\Desktop\Django_projects\Feedback_Application
+Run mange.py commands:
+To update data models in admin portal
+python manage.py makemigrations
+python manage.py migrate
+To runservver
+python manage.py runserver 

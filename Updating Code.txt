@@ -1,0 +1,2 @@
+Replace views file in below location with attached file.
+\\Django_projects\Feedback_Application\FeedbackApp\

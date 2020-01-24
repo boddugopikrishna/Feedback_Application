@@ -1,0 +1,7 @@
+id,department,courseId,courseName,semester,subject
+1,1,B.TECH-CE,B.TECH-CE-SEM-1,1,
+2,1,B.TECH-CE,B.TECH-CE-SEM-1,2,
+3,2,B.TECH-CSE,B.TECH-CSE-SEM-1,1,
+4,3,B.TECH-ECE,B.TECH-ECE-SEM-1,1,
+5,4,B.TECH-ME,B.TECH-ME-SEM-1,1,
+6,5,B.TECH-EEE,B.TECH-EEE-SEM-1,1,
